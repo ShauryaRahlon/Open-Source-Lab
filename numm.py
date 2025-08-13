@@ -88,4 +88,9 @@ print("Fibonacci Series")
 for _ in range(5):
     print(a,end=" ")
     a,b=b,a+b
-    
+
+
+
+with open("sample.txt", "w") as f:
+    f.write("Hi, I am currentlyursuing my BTech from Jaypee.")
+print("File content replaced.")
